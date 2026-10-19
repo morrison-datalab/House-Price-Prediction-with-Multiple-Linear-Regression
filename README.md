@@ -56,4 +56,17 @@ Price = -133,651.45
 ## Interpretation
 
 - Square footage, bedrooms, bathrooms, and local amenities are associated with **higher** prices. Age and distance from the city center are associated with **lower** prices.
-- Coefficients are per one-unit change, so they aren't directly comparable in magnitude. For example, a bedroom adds about $56K, and 500 sq ft adds about
+- Coefficients are per one-unit change, so they aren't directly comparable in magnitude. For example, a bedroom adds about $56K, and 500 sq ft adds about $80K.
+- Given the error size, this model works better as a guide to **which features drive price** than as a precise pricing tool.
+
+## Assumptions & Limitations
+
+- **Assumptions checked:** linearity and absence of multicollinearity
+- **Heteroscedasticity:** residuals spread out as predicted price increases, so the model is less reliable for higher-priced homes
+
+> **Disclaimer:** These findings are specific to this dataset. The predictors identified as most influential on sale price, and their effect sizes, may not hold for other datasets, markets, or time periods.
+
+## Tools
+
+Python · pandas · NumPy · matplotlib · statsmodels · scikit-learn
+
