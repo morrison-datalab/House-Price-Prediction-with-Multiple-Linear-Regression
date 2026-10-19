@@ -1,0 +1,2 @@
+# House-Price-Prediction-with-Multiple-Linear-Regression
+Multiple linear regression analysis in Python identifying the strongest predictors of home sale price across 7,000 records. Covers data cleaning, EDA, a 70/30 train/test split, and backward stepwise elimination with statsmodels, reducing 10 predictors to 6 with no loss in adjusted R² (0.592). Test RMSE: ~$97.8K. WGU M.S. Data Analytics project.
