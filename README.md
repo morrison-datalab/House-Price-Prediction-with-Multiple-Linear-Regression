@@ -126,11 +126,4 @@ logit(p) = -5.8159
 
 Python · pandas · NumPy · matplotlib · statsmodels · scikit-learn
 
-## Repository Contents
-
-| File | Description |
-|---|---|
-| `House Price Prediction.ipynb` | Analysis 1: multiple linear regression |
-| `LUXURY_NOTEBOOK_NAME.ipynb` | Analysis 2: logistic regression |
-| `requirements.txt` | Python dependencies |
 
