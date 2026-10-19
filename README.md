@@ -70,7 +70,7 @@ Price = -133,651.45
 
 **Candidate predictors (10):** `SquareFootage`, `NumBathrooms`, `NumBedrooms`, `RenovationQualityRate`, `LocalAmenities`, `TransportAccess`, `SchoolRating`, `DistanceToCityCenter`, `Fireplace`, `Garage`
 
-**Cleaning notes:** `RenovationQualityRate`, `TransportAccess`, and `SchoolRating` were flagged by IQR but kept, as the values were within logical ranges.
+**Cleaning notes:** Outliers in `SquareFootage` and `DistanceToCityCenter` were capped at the IQR bounds. `RenovationQualityRate`, `TransportAccess`, and `SchoolRating` were flagged by IQR but kept, as the values were within logical ranges.
 
 | Step | Removed | p-value |
 |---|---|---|
